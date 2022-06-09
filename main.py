@@ -8,7 +8,8 @@ def main():
     dataframe = pd.read_csv(FILEPATH+"\\Tesla.csv")
     print(dataframe.head(2))
     print(dataframe.tail(2))
-    print(dataframe.mean(0))
+    print("------------------------------")
+    print(dataframe.mean(0, numeric_only=True, skipna=True))
 
 if __name__ =="__main__":
     main()
