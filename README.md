@@ -17,9 +17,7 @@ Purpose:
 
 I wrote this software to analyze data because I have been interested in investing and wanted to see if I could answer questions about these two common stocks.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the data set, the questions and answers, the code running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/oj0Fimrr0bM)
 
 # Data Analysis Results
 
@@ -43,7 +41,6 @@ If my math is correct then I would have been able to increase my money by about 
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [Kaggle](https://www.kaggle.com/)
 * [Pandas Guide](https://pandas.pydata.org/docs/user_guide/10min.html)
 
