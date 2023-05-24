@@ -129,7 +129,7 @@ class DataAnalysis():
         """
         Returns the difference in the average volume of stocks traded
         """
-        avg = self.df2.mean()["Volume"] - self.df1.mean()["Volume"]
+        avg = self.df2.mean(numeric_only = True)["Volume"] - self.df1.mean(numeric_only = True)["Volume"]
         return str(int(avg))
 
     def display_graph(self, comp_name, col_name):
