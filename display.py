@@ -16,9 +16,9 @@ class Display():
         variableOptionsCol = ["Open", "High", "Low", "Close", "Adj Close", "Volume"]
 
         # these buttons controll the actions the user has
-        self.button1 = tk.Button(text="Display Graph", background="Green",activebackground="Red", font=2, width=15, height=2, command = self.displayGraph)
-        self.button2 = tk.Button(text="Calculate Amount", background="Green", activebackground="Red", font=2, width=15, height=2, command = self.calculate_new_amount)
-        self.button3 = tk.Button(text="Average\nVolume", background="Green",activebackground="Red", font=2, width=15, height=2,command=self.calc_average_difference_volume)
+        self.button1 = tk.Button(text = "Display Graph", foreground = "White", background = "Blue", activebackground = "Pink", font = 2, width = 15, height = 2, command = self.displayGraph)
+        self.button2 = tk.Button(text = "Calculate Amount", foreground = "White", background = "Blue", activebackground = "Pink", font = 2, width = 15, height = 2, command = self.calculate_new_amount)
+        self.button3 = tk.Button(text = "Average\nVolume", foreground = "White", background = "Blue", activebackground = "Pink", font = 2, width = 15, height = 2,command = self.calc_average_difference_volume)
        
         #amount to check
         self.entry1 = tk.Entry()
